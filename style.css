@@ -1,0 +1,95 @@
+
+header{
+    padding-top:50px;
+    text-align: center;
+    background-color: powderblue;
+    background-size: cover;
+}
+h1{
+    font-size: 60px;
+    margin: 0 auto;
+    color: darkmagenta;
+}
+
+button[id="calcCurrent"]{
+    margin-bottom: 20px;
+    width: 150px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: yellow;
+    border-color: black;
+}
+
+button[id="findNeeded"]{
+    margin-bottom: 20px;
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: yellow;
+    border-color: black;
+}
+
+button[id="calculate"]{
+    margin-bottom: 20px;
+    width: 120px;
+    height: 50px;
+    border-color: black;
+    border-width: medium;
+    background-color: green;
+    color:white;
+    font-size: 20px;
+}
+
+.category{
+    float: left;
+}
+
+#pickOne{
+    position: absolute;
+    top: 350px;
+    left:0px;
+}
+
+#webBody{
+    position: absolute;
+    top:420px;
+}
+
+body{
+    background-color: papayawhip;
+}
+
+.finalBox{
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    background-color: greenyellow;
+    padding: 20px;
+    text-align: center;
+}
+h3{
+    margin: 0 auto;
+}
+h4{
+    margin-top:10px;
+}
+
+.total{
+    width: 45px;
+}
+
+.score{
+    width:85px;
+}
+
+
+h5{
+    font-size: 20px;
+    margin: 0 auto;
+}
+#result2{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:orange;
+}
+

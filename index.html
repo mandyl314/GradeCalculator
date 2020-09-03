@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/normalize.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Grade Calculator</h1>
+        <h2>Find current grade or desired grade</h2>
+        <br /><button id="calcCurrent">Calculate Grade</button>
+        <button id="findNeeded">Find Grade Needed</button>
+        <br /><button id="calculate">Calculate</button>
+    </header>
+    <div id="webBody">
+    <div class ="category" id="category0">
+        <form name ="options">
+            <input type="radio" name="option" id="opt0l1" value="percents">
+            <label for="opt0l1">Percents</label>
+            <input type="radio" name="option" id="opt0l2" value="points"> 
+            <label for="opt0l2">Points</label>
+        </form>
+        <input id= "cat0" placeholder="Enter Section 1 Name">
+        <br /><input class="percent" id="perc0" placeholder="% of grade" type="number">
+        <span class="grades" id="gradeCat0">
+            <br /><input class="score" name= "grade0" type="number" placeholder="Input Grade">
+            <input class="total" name="tot0" type="number" placeholder="total">
+        </span>
+        <br /><button class="addGrade" id="0">Add Another Grade</button>
+    </div>
+<button id="addCat">Add New Category</button>
+</div>
+<div id="pickOne">
+    <h5>Find Grade in</h5>
+    <form name ="findGrade">
+        <input type="radio" name="catChoice" id="choice0" value="0">
+        <label for="choice0">Section 1</label>
+    </form>
+</div>
+<div class="finalBox">
+    <span id="output1">
+        <h3>Your Grade</h3>
+        <h4 id="finalResult">N/A</h4>
+    </span>
+    <span id="desired">
+        <h3>Desired Grade</h3>
+        <input id="desiredGrade" type=number placeholder="Enter Desired Grade">
+    </span>
+</div>
+</body>
+</html>
